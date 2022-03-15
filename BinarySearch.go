@@ -40,5 +40,5 @@ func main() {
 	if is_Sorted(arr) == false {
 		sort.Ints(arr)
 	}
-	fmt.Println(binary_search(arr, 2))
+	fmt.Println(binary_search(arr, 100))
 }
